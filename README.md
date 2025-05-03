@@ -19,14 +19,18 @@ The static web content, including HTML, CSS, and JavaScript files, is hosted on 
 JavaScript Script
 
 The JS script running on the client side interacts with the API Gateway to fetch data and uploads files to S3.
+
 Steps to Setup
+
 1. Create a DynamoDB Table
-Go to the Amazon DynamoDB Console.
-Click on "Create table."
-For Table name, enter cloud_resume-test.
-For Partition key, enter id (Number).
-Click "Create table."
-Add an item to your table with the following attributes:
-id: 0
-views: 0
+   
+1.Go to the Amazon DynamoDB Console.
+2.Click on "Create table."
+3.For Table name, enter cloud_resume-test.
+4.For Partition key, enter id (Number).
+5.Click "Create table."
+6.Add an item to your table with the following attributes:
+    id: 0
+  views: 0
+
 2. Create a Lambda Function
