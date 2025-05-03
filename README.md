@@ -24,12 +24,17 @@ Steps to Setup
 
 1. Create a DynamoDB Table
    
-1.Go to the Amazon DynamoDB Console.
-2.Click on "Create table."
-3.For Table name, enter cloud_resume-test.
-4.For Partition key, enter id (Number).
-5.Click "Create table."
-6.Add an item to your table with the following attributes:
+  1.Go to the Amazon DynamoDB Console.
+
+  2.Click on "Create table."
+
+  3.For Table name, enter cloud_resume-test.
+
+  4.For Partition key, enter id (Number).
+
+  5.Click "Create table."
+
+  6.Add an item to your table with the following attributes:
     id: 0
   views: 0
 
